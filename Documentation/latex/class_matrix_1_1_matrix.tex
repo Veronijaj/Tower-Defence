@@ -1,0 +1,285 @@
+\doxysection{Matrix.\+Matrix\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_matrix_1_1_matrix}{}\label{class_matrix_1_1_matrix}\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+
+
+Template class of matrix.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_matrix_1_1_matrix_a6c2c1ef87ece06ec025a70c54d8f1f63}\label{class_matrix_1_1_matrix_a6c2c1ef87ece06ec025a70c54d8f1f63} 
+{\bfseries Matrix} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_matrix_1_1_matrix_ac85fdebba5df96102a3ebf7949b46418}{Matrix}} (int height, int width)
+\begin{DoxyCompactList}\small\item\em constructor with initialization of size \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_matrix_1_1_matrix_af735a185339cf25308f014f37320ee96}{Resize}} (int h, int w)
+\begin{DoxyCompactList}\small\item\em Change size of matrix. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_matrix_1_1_matrix_a9c4d616c61b2a8d4cd0a3cdd6f0f96eb}{add\+\_\+column}} (T\mbox{[}$\,$\mbox{]} el)
+\begin{DoxyCompactList}\small\item\em Addition column. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_matrix_1_1_matrix_a93e4a7e473cb0029d254fdbfdd789027}{add\+\_\+row}} (T\mbox{[}$\,$\mbox{]} el)
+\item 
+\Hypertarget{class_matrix_1_1_matrix_ad2580816c193be9ad472fd8a0b18c4ef}\label{class_matrix_1_1_matrix_ad2580816c193be9ad472fd8a0b18c4ef} 
+void {\bfseries delete\+\_\+column} ()
+\begin{DoxyCompactList}\small\item\em Delete column. \end{DoxyCompactList}\item 
+\Hypertarget{class_matrix_1_1_matrix_ac0a047f3823d356b660d66be04d535db}\label{class_matrix_1_1_matrix_ac0a047f3823d356b660d66be04d535db} 
+void {\bfseries delete\+\_\+row} ()
+\begin{DoxyCompactList}\small\item\em Delete row. \end{DoxyCompactList}\item 
+IEnumerator$<$ T $>$ \mbox{\hyperlink{class_matrix_1_1_matrix_a3e8f4e282c4b9d7c52a895693a9b3fb8}{Get\+Enumerator}} ()
+\begin{DoxyCompactList}\small\item\em Iterator. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_matrix_1_1_matrix_adc13eec0081461a468217a95a7be3de3}{Matrix}} (\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$ other)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_matrix_1_1_matrix_ac0e00a1a59dffb4bf414cb9fb74a89c9}{operator!=}} (\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$ obj1, \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$ obj2)
+\begin{DoxyCompactList}\small\item\em Сhecking for inequality. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_matrix_1_1_matrix_aaa486da7afc6699ead8d60631e4c1047}{operator==}} (\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$ obj1, \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$ obj2)
+\begin{DoxyCompactList}\small\item\em Equality operator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{class_matrix_1_1_matrix_ac328c70aac41a063748726932d57174e}{this\mbox{[}int i, int j\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Return by index. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_matrix_1_1_matrix_a9e37a3e095178959d02da4db3dc68285}{Height}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Getter of height. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_matrix_1_1_matrix_ac1e5bdffc51426f2b65fc8de9522fe97}{Width}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Getter of width. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Template class of matrix. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em IComparable$<$T$>$}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_matrix_1_1_matrix_ac85fdebba5df96102a3ebf7949b46418}\label{class_matrix_1_1_matrix_ac85fdebba5df96102a3ebf7949b46418} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Matrix()}{Matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}} (\begin{DoxyParamCaption}\item[{int}]{height,  }\item[{int}]{width }\end{DoxyParamCaption})}
+
+
+
+constructor with initialization of size 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & Non-\/positive values of height and length\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_matrix_1_1_matrix_adc13eec0081461a468217a95a7be3de3}\label{class_matrix_1_1_matrix_adc13eec0081461a468217a95a7be3de3} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Matrix()}{Matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$}]{other }\end{DoxyParamCaption})}
+
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Constructor that copies\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_matrix_1_1_matrix_a9c4d616c61b2a8d4cd0a3cdd6f0f96eb}\label{class_matrix_1_1_matrix_a9c4d616c61b2a8d4cd0a3cdd6f0f96eb} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!add\_column@{add\_column}}
+\index{add\_column@{add\_column}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{add\_column()}{add\_column()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.add\+\_\+column (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{el }\end{DoxyParamCaption})}
+
+
+
+Addition column. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em el} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_matrix_1_1_matrix_a93e4a7e473cb0029d254fdbfdd789027}\label{class_matrix_1_1_matrix_a93e4a7e473cb0029d254fdbfdd789027} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!add\_row@{add\_row}}
+\index{add\_row@{add\_row}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{add\_row()}{add\_row()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.add\+\_\+row (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{el }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em el} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_matrix_1_1_matrix_a3e8f4e282c4b9d7c52a895693a9b3fb8}\label{class_matrix_1_1_matrix_a3e8f4e282c4b9d7c52a895693a9b3fb8} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!GetEnumerator@{GetEnumerator}}
+\index{GetEnumerator@{GetEnumerator}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{GetEnumerator()}{GetEnumerator()}}
+{\footnotesize\ttfamily IEnumerator$<$ T $>$ \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.Get\+Enumerator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Iterator. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_matrix_1_1_matrix_ac0e00a1a59dffb4bf414cb9fb74a89c9}\label{class_matrix_1_1_matrix_ac0e00a1a59dffb4bf414cb9fb74a89c9} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$}]{obj1,  }\item[{\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$}]{obj2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Сhecking for inequality. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj1} & \\
+\hline
+{\em obj2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_matrix_1_1_matrix_aaa486da7afc6699ead8d60631e4c1047}\label{class_matrix_1_1_matrix_aaa486da7afc6699ead8d60631e4c1047} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$}]{obj1,  }\item[{\mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix}}$<$ T $>$}]{obj2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Equality operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj1} & \\
+\hline
+{\em obj2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & \\
+\hline
+{\em Argument\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_matrix_1_1_matrix_af735a185339cf25308f014f37320ee96}\label{class_matrix_1_1_matrix_af735a185339cf25308f014f37320ee96} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!Resize@{Resize}}
+\index{Resize@{Resize}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Resize()}{Resize()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.Resize (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{w }\end{DoxyParamCaption})}
+
+
+
+Change size of matrix. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & new height\\
+\hline
+{\em w} & new width\\
+\hline
+{\em elem} & Default element for filling of empty cells \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & \\
+\hline
+{\em Argument\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_matrix_1_1_matrix_a9e37a3e095178959d02da4db3dc68285}\label{class_matrix_1_1_matrix_a9e37a3e095178959d02da4db3dc68285} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!Height@{Height}}
+\index{Height@{Height}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Height}{Height}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.Height\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Getter of height. 
+
+\begin{DoxyReturn}{Returns}
+height
+\end{DoxyReturn}
+\Hypertarget{class_matrix_1_1_matrix_ac328c70aac41a063748726932d57174e}\label{class_matrix_1_1_matrix_ac328c70aac41a063748726932d57174e} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!this\mbox{[}int i, int j\mbox{]}@{this[int i, int j]}}
+\index{this\mbox{[}int i, int j\mbox{]}@{this[int i, int j]}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{this[int i, int j]}{this[int i, int j]}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.this\mbox{[}int i, int j\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Return by index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+{\em j} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_matrix_1_1_matrix_ac1e5bdffc51426f2b65fc8de9522fe97}\label{class_matrix_1_1_matrix_ac1e5bdffc51426f2b65fc8de9522fe97} 
+\index{Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}!Width@{Width}}
+\index{Width@{Width}!Matrix.Matrix$<$ T $>$@{Matrix.Matrix$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Width}{Width}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_matrix_1_1_matrix}{Matrix.\+Matrix}}$<$ T $>$.Width\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Getter of width. 
+
+\begin{DoxyReturn}{Returns}
+width
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/\+Documents/\+Tower\+\_\+\+Defence\#/\+Game/\+Matrix/Matrix.\+cs\end{DoxyCompactItemize}

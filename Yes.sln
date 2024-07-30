@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yes", "Yes\Yes.csproj", "{A313EF22-ADFC-4490-9FD0-D70046709C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building", "Building\Building.csproj", "{A54367A1-F183-4EBA-AF93-439FA2192E5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effect", "Effect\Effect.csproj", "{BBB262DA-2142-459B-A240-B59882DA6EF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enemy", "Enemy\Enemy.csproj", "{F2106F1D-1F4B-4877-BF0F-D4061A872A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{A7DE812B-E36F-4030-8965-DF0736F271A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landscape", "Landscape\Landscape.csproj", "{5D50D564-8ECD-4333-AC7F-057EF4BF2C39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix\Matrix.csproj", "{F7B7928E-5FA6-4E9C-AFC4-3B7906BF7E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A313EF22-ADFC-4490-9FD0-D70046709C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A313EF22-ADFC-4490-9FD0-D70046709C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A313EF22-ADFC-4490-9FD0-D70046709C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A313EF22-ADFC-4490-9FD0-D70046709C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54367A1-F183-4EBA-AF93-439FA2192E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54367A1-F183-4EBA-AF93-439FA2192E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54367A1-F183-4EBA-AF93-439FA2192E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54367A1-F183-4EBA-AF93-439FA2192E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB262DA-2142-459B-A240-B59882DA6EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB262DA-2142-459B-A240-B59882DA6EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB262DA-2142-459B-A240-B59882DA6EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB262DA-2142-459B-A240-B59882DA6EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2106F1D-1F4B-4877-BF0F-D4061A872A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2106F1D-1F4B-4877-BF0F-D4061A872A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2106F1D-1F4B-4877-BF0F-D4061A872A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2106F1D-1F4B-4877-BF0F-D4061A872A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DE812B-E36F-4030-8965-DF0736F271A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DE812B-E36F-4030-8965-DF0736F271A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DE812B-E36F-4030-8965-DF0736F271A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DE812B-E36F-4030-8965-DF0736F271A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D50D564-8ECD-4333-AC7F-057EF4BF2C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D50D564-8ECD-4333-AC7F-057EF4BF2C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D50D564-8ECD-4333-AC7F-057EF4BF2C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D50D564-8ECD-4333-AC7F-057EF4BF2C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B7928E-5FA6-4E9C-AFC4-3B7906BF7E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B7928E-5FA6-4E9C-AFC4-3B7906BF7E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B7928E-5FA6-4E9C-AFC4-3B7906BF7E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B7928E-5FA6-4E9C-AFC4-3B7906BF7E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E5EDCEF-6F3B-4721-A4D7-559C3C2E176A}
+	EndGlobalSection
+EndGlobal
